@@ -34,7 +34,7 @@ export default function Navigation() {
           href="/"
           className="text-2xl font-bold font-heading tracking-tighter hover:text-primary transition-colors cursor-pointer"
         >
-          {`<Syed />`}
+          {`< Syed />`}
         </Link>
 
         <div className="hidden md:flex items-center gap-8">

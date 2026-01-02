@@ -5,7 +5,6 @@ import heroBg from "../assets/futuristic_bg.png";
 export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
-      {/* Background Image */}
       <div 
         className="absolute inset-0 z-0 opacity-40"
         style={{
@@ -15,7 +14,6 @@ export default function Hero() {
         }}
       />
       
-      {/* Overlay Gradient */}
       <div className="absolute inset-0 z-0 bg-gradient-to-b from-background/80 via-background/50 to-background" />
 
       <div className="container relative z-10 px-6 text-center">
