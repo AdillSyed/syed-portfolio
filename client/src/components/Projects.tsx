@@ -2,13 +2,16 @@ import { motion } from "framer-motion";
 import { ExternalLink, Github } from "lucide-react";
 import { Card, CardContent } from "../components/ui/card";
 import { Badge } from "../components/ui/badge";
+import interior from "../../src/assets/interior.png";
+import chaos from "../../src/assets/chaos.png";
+import workflow from "../../src/assets/workflow.png";
 
 const projects = [
   {
     title: "Interior Portfolio",
     description: "Built a portfolio for an interior designer following mobile first approach showcasing their project's and experiences to their clients.",
     tags: ["React.js", "Framer Motion", "Tailwind"],
-    image: "../../src/assets/interior.png",
+    image: interior,
     github: "https://github.com/AdillSyed/interior-portfolio",
     live: "https://namratha.netlify.app/"
   },
@@ -16,7 +19,7 @@ const projects = [
     title: "API Chaos Tester",
     description: "Built an application to simulate API failures (latency, HTTP errors, offline states) to validate frontend resilience.",
     tags: ["React", "API", "Tailwind"],
-    image: "../../src/assets/chaos.png",
+    image: chaos,
     github: "https://github.com/AdillSyed/api-chaos-tester",
     live: "https://api-chaos-tester.netlify.app/"
   },
@@ -24,7 +27,7 @@ const projects = [
     title: "React Workflow",
     description: "A visual workflow builder built with React and React Flow, allowing users to create, configure, validate, and export workflows using a node-based editor..",
     tags: ["React.js", "reactflow", "zustand"],
-    image: "../../src/assets/workflow.png",
+    image: workflow,
     github: "https://github.com/AdillSyed/react-flow",
     live: "https://react-workflow.vercel.app/"
   }
