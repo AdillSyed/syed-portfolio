@@ -53,7 +53,7 @@ export default function Navigation() {
             className="border-primary/50 hover:bg-primary/10 hover:text-primary text-primary-foreground cursor-pointer"
           >
             <a
-              href="/syed_resume.pdf"
+              href="/syed-fs-resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
