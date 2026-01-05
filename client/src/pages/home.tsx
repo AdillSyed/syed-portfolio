@@ -16,7 +16,7 @@ export default function Home() {
       </main>
       
       <footer className="py-8 border-t border-white/10 text-center text-muted-foreground text-sm font-mono">
-        <p>© {new Date().getFullYear()} Syed's Portfolio. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Syed's Portfolio.</p>
       </footer>
     </div>
   );
