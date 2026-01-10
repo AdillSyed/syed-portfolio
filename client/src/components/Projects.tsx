@@ -21,7 +21,7 @@ const projects = [
     tags: ["React", "API", "Tailwind"],
     image: chaos,
     github: "https://github.com/AdillSyed/api-chaos-tester",
-    live: "https://api-chaos-tester.netlify.app/"
+    live: "https://syed-api-chaos-tester.vercel.app/"
   },
   {
     title: "React Workflow",
